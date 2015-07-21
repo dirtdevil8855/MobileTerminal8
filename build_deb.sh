@@ -1,3 +1,4 @@
+
 #!/bin/bash
 # This builds a .deb package for installing MobileTerminal using
 # Cydia as described here: http://www.saurik.com/id/7
@@ -69,3 +70,4 @@ export COPY_EXTENDED_ATTRIBUTES_DISABLE
 
 dpkg-deb --build $DEB_BUILD_DIR $DEB_DST
 exit 0
+
